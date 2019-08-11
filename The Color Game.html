@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="colorgame.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        The Great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+    </div>
+    <div id="container">
+
+        <!-- 3 or 6 squares depending if easy or hard. -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <!-- <div id="rules">
+        <h2>Rules:</h2>
+        <p>All colors are made up of the three base colors. Red, Green, and Blue. Try to guess which of the six colored
+            squares matches the RGB color in the title!</p>
+    </div> -->
+
+
+
+
+    <script type="text/javascript" src="colorgame.js"></script>
+</body>
+
+</html>
